@@ -227,21 +227,27 @@ const navLinks = [
   
   const socialImgs = [
     {
+    name: "linkedin",
+    imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/daljit-singh-14388b264/",
+  },
+    {
       name: "insta",
       imgPath: "/images/insta.png",
+      url:"https://www.instagram.com/diljitsingh564/",
     },
     {
       name: "fb",
       imgPath: "/images/fb.png",
+      url:"https://www.facebook.com/share/1EU6uUdWsd/",
     },
     {
       name: "x",
       imgPath: "/images/x.png",
+      url:"https://x.com/Daljits84841555?t=wSKyY5A4x5WAiYCbEFxqJg&s=09"
     },
-    {
-      name: "linkedin",
-      imgPath: "/images/linkedin.png",
-    },
+    
+  
   ];
   
   export {

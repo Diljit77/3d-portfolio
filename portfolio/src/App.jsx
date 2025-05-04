@@ -10,7 +10,7 @@ import Hero from './sections/Hero'
 import LogoShowcase from './sections/LogoShowcase'
 import AppShowcase from './sections/ShowcaseSection'
 import TechStack from './sections/TechStack'
-import Testimonials from './sections/Testimonail'
+
 
 function App() {
 

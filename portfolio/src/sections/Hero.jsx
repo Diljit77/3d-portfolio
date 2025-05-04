@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
@@ -54,11 +53,23 @@ const Hero = () => {
               Hi, I’m Daljit singh, a full stack Developer specificed in MERN.
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+       
+  <Button
+    text="See My Resume"
+    className="md:w-80 md:h-16 w-60 h-12"
+    id="resume-download"
+    onClick={() => {
+      console.log("hello")
+      const link = document.createElement("a");
+      link.href = "/document/Daljit.pdf"; // Path to file in public folder
+      link.setAttribute("download", "Daljit_Singh_Resume.pdf");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }}
+  />
+
+
           </div>
         </header>
 

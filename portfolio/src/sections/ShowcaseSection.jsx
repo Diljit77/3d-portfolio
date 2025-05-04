@@ -47,7 +47,11 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <a ref={rydeRef}
+              href="https://e-shopping-app-7fs2.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+               className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/shopping-app.png" alt="Ryde App Interface" />
             </div>
@@ -59,25 +63,35 @@ const AppShowcase = () => {
               Developed a full-featured eCommerce website using the MERN stack (MongoDB, Express.js, React.js, Node.js).
               </p>
             </div>
-          </div>
+          </a>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/perfume-website.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>Luxury Perfume website</h2>
-            </div>
+          
+              <a
+    href=""
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project"
+    ref={libraryRef}
+  >
+    <div className="image-wrapper bg-[#FFEFDB]">
+      <img src="/images/perfume-website.png" alt="Luxury Perfume Website" />
+    </div>
+    <h2>Luxury Perfume Website</h2>
+  </a>
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/web-app.png" alt="YC Directory App" />
-              </div>
-              <h2>Task Management app</h2>
-            </div>
+  <a
+    href="https://book-review-taupe.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project"
+    ref={ycDirectoryRef}
+  >
+    <div className="image-wrapper bg-[#FFE7EB]">
+      <img src="/images/web-app.png" alt="Task Management App" />
+    </div>
+    <h2>Book Review Website</h2>
+  </a>
           </div>
         </div>
       </div>
