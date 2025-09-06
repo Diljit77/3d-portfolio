@@ -137,33 +137,48 @@ const navLinks = [
     },
   ];
   
-  const expCards = [
-    {
-      review: "daljit brought creativity and technical expertise to the team, significantly improving our backend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/download.jpeg",
-      logoPath: "/images/download.jpeg",
-      title: "Software developer Engineer",
-      date: "Feburary 2025 - March 2025",
-      responsibilities: [
-        "Developed and maintained th Restful api of the dashboard.",
-        "Collaborated closely woth ui/ux  team .",
-        "Optimized web applications for maximum speed and scalability.",
-      ],
-    },
-    {
-      review: "daljit’s contributions to web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/codsoft.png",
-      logoPath: "/images/codsoft.png",
-      title: "",
-      date: "June 2024 - July 2024",
-      responsibilities: [
-        "Improved web design skills, code structuring, and responsiveness.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Gained experience working independently on end-to-end web development tasks.",
-      ],
-    },
+ const expCards = [
+  {
+    review:
+      "Daljit brought creativity and technical expertise to the team, significantly improving backend performance. His work has been invaluable in delivering faster and more reliable experiences.",
+    imgPath: "/images/totle.jpg",
+    logoPath: "/images/totle.jpg",
+    title: "Backend Developer Intern",
+    date: "May 2025 - August 2025",
+    responsibilities: [
+      "Designed and implemented scalable RESTful APIs for the platform.",
+      "Collaborated closely with the UI/UX team to ensure seamless integration between frontend and backend.",
+      "Optimized application performance by improving database queries and backend logic, enhancing scalability and speed.",
+    ],
+  },
+  {
+    review:
+      "Daljit’s backend contributions improved the efficiency of our systems and made the dashboard much smoother. His problem-solving mindset was a great asset to the team.",
+    imgPath: "/images/download.jpeg",
+    logoPath: "/images/download.jpeg",
+    title: "Software debveloper Engineer Intern",
+    date: "February 2025 - March 2025",
+    responsibilities: [
+      "Developed and maintained RESTful APIs for the analytics dashboard.",
+      "Integrated backend services with frontend components for a seamless user experience.",
+      "Enhanced system reliability by debugging and optimizing backend workflows.",
+    ],
+  },
+  {
+    review:
+      "Daljit’s contributions to web development were outstanding. He consistently approached challenges with creativity and delivered high-quality results.",
+    imgPath: "/images/codsoft.png",
+    logoPath: "/images/codsoft.png",
+    title: "Web Development Intern",
+    date: "June 2024 - July 2024",
+    responsibilities: [
+      "Improved web design, code structuring, and responsiveness of applications.",
+      "Collaborated with backend engineers to integrate APIs into frontend features.",
+      "Gained hands-on experience in full-stack development by working independently on end-to-end tasks.",
+    ],
+  },
+];
 
-  ];
   
   const expLogos = [
     {

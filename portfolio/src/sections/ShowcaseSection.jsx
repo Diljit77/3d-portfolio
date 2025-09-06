@@ -68,16 +68,16 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
           
               <a
-    href=""
+    href="https://mini-linkedin-uk4c.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
     className="project"
     ref={libraryRef}
   >
     <div className="image-wrapper bg-[#FFEFDB]">
-      <img src="/images/perfume-website.png" alt="Luxury Perfume Website" />
+      <img src="/images/mini.png" alt="Luxury Perfume Website" />
     </div>
-    <h2>Luxury Perfume Website</h2>
+    <h2>Mini linkedin website</h2>
   </a>
 
   <a
