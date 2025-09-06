@@ -146,10 +146,13 @@ const navLinks = [
     title: "Backend Developer Intern",
     date: "May 2025 - August 2025",
     responsibilities: [
-      "Designed and implemented scalable RESTful APIs for the platform.",
-      "Collaborated closely with the UI/UX team to ensure seamless integration between frontend and backend.",
-      "Optimized application performance by improving database queries and backend logic, enhancing scalability and speed.",
+        "Developed and maintained RESTful APIs for the analytics .",
+      "Integrated backend services with frontend components for a seamless user experience.",
+      "Enhanced system reliability by debugging and optimizing backend workflows.",
+      "Collaborated with cross-functional teams to define and implement new features.",
+      "working on relational database management system PostgreSQL.",
     ],
+   
   },
   {
     review:
@@ -159,9 +162,9 @@ const navLinks = [
     title: "Software debveloper Engineer Intern",
     date: "February 2025 - March 2025",
     responsibilities: [
-      "Developed and maintained RESTful APIs for the analytics dashboard.",
-      "Integrated backend services with frontend components for a seamless user experience.",
-      "Enhanced system reliability by debugging and optimizing backend workflows.",
+    "Designed and implemented scalable RESTful APIs for the platform.",
+      "Collaborated closely with the UI/UX team to ensure seamless integration between frontend and backend.",
+      "Optimized application performance by improving database queries and backend logic, enhancing scalability and speed.",
     ],
   },
   {
