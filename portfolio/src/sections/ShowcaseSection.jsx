@@ -81,16 +81,16 @@ const AppShowcase = () => {
   </a>
 
   <a
-    href="https://book-review-taupe.vercel.app/"
+    href="https://online-ccode-editor.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
     className="project"
     ref={ycDirectoryRef}
   >
     <div className="image-wrapper bg-[#FFE7EB]">
-      <img src="/images/web-app.png" alt="Task Management App" />
+      <img src="/images/code-editor.png" alt="Task Management App" />
     </div>
-    <h2>Book Review Website</h2>
+    <h2>Online Code Editor</h2>
   </a>
           </div>
         </div>
